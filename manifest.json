@@ -1,0 +1,20 @@
+{
+  "name": "Tab Closer and text paster",
+  "version": "1.0",
+  "manifest_version" : 2,
+  "description": "Close all tabs except quizlet & youtube",
+  "background" : {
+    "scripts" : ["jquery.min.js","tabcloser.js"]
+  },
+"icons": { "128": "logo.png"},
+  "browser_action": {
+    "default_icon": "logo.png"
+  },
+"content_scripts": [
+    {
+      "matches": ["https://quizlet.com/*"],
+      "js": ["jquery.min.js", "textpaster.js"]
+    }
+  ],
+  "permissions": ["tabs","clipboardRead"]
+}

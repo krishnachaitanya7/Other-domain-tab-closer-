@@ -1,0 +1,1 @@
+This Google Chrome extension will close any other tabs other than quizlet.com & youtube.com. It's user centric and it can be modded as he needs from tabcloser.js file. It also has the functionality to print words into focussed input box words of your choice. This feature can be controlled from textpaster.js file. Feel free to message me for any doubts, suggestions etc.
